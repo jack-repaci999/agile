@@ -1,5 +1,5 @@
 import React from 'react';
-import useFirestore from '../hooks/useFirestore';
+import useFirestore from '../firebase/Hooks/useFirestore';
 
 const ImageGrid = () => {
     const { docs } = useFirestore('images');
